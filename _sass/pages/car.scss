@@ -30,36 +30,6 @@
         &:first-of-type {
             margin-bottom: 10px;
         }
-        
-        section.specification {
-            background: #F1F1F1;
-            padding: 0 10px;
-    
-            table {
-                width: 100%;
-                
-                thead th,
-                tbody td {
-                    padding: 10px 0;
-                }
-    
-                thead th {
-                    text-align: left;
-                    border-bottom: 3px solid #CCC;
-                }
-    
-                tbody td {
-                    &:first-child {
-                        font-weight: bold;
-                        width: 40%;
-                    }
-    
-                    &:last-child {
-                        padding-left: 10px;
-                    }
-                }
-            }
-        }
     }
 
     @include media-query(tablet) {

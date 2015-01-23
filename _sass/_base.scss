@@ -146,6 +146,37 @@ main {
         font-style: italic;
         padding: 10px;
     }
+    
+    .dataTable {
+        background: #F1F1F1;
+        padding: 0 10px;
+        box-sizing: border-box;
+
+        table {
+            width: 100%;
+            
+            thead th,
+            tbody td {
+                padding: 10px 0;
+            }
+
+            thead th {
+                text-align: left;
+                border-bottom: 3px solid #CCC;
+            }
+
+            tbody td {
+                &:first-child {
+                    font-weight: bold;
+                    width: 40%;
+                }
+
+                &:last-child {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
 }
 
 footer {
